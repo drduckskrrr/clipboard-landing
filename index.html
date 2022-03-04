@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Clipboard landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <section class="header">
+        <div class="logo">
+            <svg width="125" height="125" xmlns="http://www.w3.org/2000/svg">
+            <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd"><circle cx="62.5" cy="62.5" r="57.5"/>
+              <path d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0"
+             stroke-linecap="round"/></g></svg>
+        </div>
+
+        <h1 class="big-heading">A history of everything you copy</h1>
+        <p class="content">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+
+        <button type="button" class="download-button download-ios">Download for iOS</button>
+        <button type="button" class="download-button download-mac">Download for Mac</button>
+
+
+    </section>
+    <section class="slide">
+        <h3 class="small-heading">Keep track of your snippets</h3>
+        <p class="inner-content desktop-only">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices. Download for iOS Download for Mac Keep track of your snippets Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything</p>
+        <p class="inner-content mobile-only">
+            Clipboard instanly stores any item you can copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organnize everything
+        </p>
+    </section>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row mac">
+                <div class="col-lg-6 mac-img">
+
+                    <img src="images/image-computer.png" class="content-img">
+                </div>
+                <div class="col-lg-6">
+                    <div class="right-content">
+                        <h3 class="small-heading">Quick Search</h3>
+                        <p class="inner-content">Easily search your snippets by content, category, web address, application, and more.</p>
+                    </div>
+                    <div class="right-content">
+                        <h3 class="small-heading">iCloud Sync</h3>
+                        <p class="inner-content">Instantly saves and syncs snippets across all your devices.</p>
+                    </div>
+                    <div class="right-content">
+                        <h3 class="small-heading">Complete History</h3>
+                        <p class="inner-content">
+                            Retrieve any snippets from the first moment you started using the app.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="ipad">
+            <div class="ipad-content">
+                <h3 class="small-heading">
+                    Access Clipboard anywhere
+                </h3>
+                <p class="inner-content">
+                    Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.
+                </p>
+            </div>
+            <img src="images/image-devices.png" class="content-img">
+        </div>
+    </section>
+    <section class="cta">
+        <div class="cta-heading">
+            <h3 class="small-heading">Supercharge your workflow</h3>
+            <p class="inner-content">We’ve got the tools to boost your productivity.</p>
+        </div>
+        <div class="feature row">
+            <div class="col-lg-4">
+                <svg width="44" height="40" xmlns="http://www.w3.org/2000/svg"><g fill="#9EABB2" fill-rule="nonzero"><path d="M11.07 0C8.353 0 6.14 2.192 6.14 4.876l-.179 25.278 2.69.02.179-25.289c0-1.21 1.005-2.196 2.24-2.196h27.027V0H11.071z"/><path d="M38.097 0a5.115 5.115 0 00-5.11 5.11v28.37c0 2.052-1.668 3.72-3.72 3.72a3.725 3.725 0 01-3.72-3.72V30.21c0-.743-.601-1.345-1.344-1.345H1.345C.602 28.864 0 29.466 0 30.21v3.272a6.417 6.417 0 006.41 6.409V37.2a3.724 3.724 0 01-3.72-3.72v-1.927h20.168v1.928a6.417 6.417 0 006.41 6.409 6.417 6.417 0 006.409-6.41V12.46h6.185c.743 0 1.345-.602 1.345-1.345V5.11A5.115 5.115 0 0038.097 0zm2.42 9.77h-4.84V5.11a2.423 2.423 0 012.42-2.42 2.423 2.423 0 012.42 2.42v4.66z"/><path d="M6.14 37.201h22.813v2.689H6.14zM19.99 7.485h-6.947a1.345 1.345 0 100 2.69h6.947a1.345 1.345 0 100-2.69zM28.057 12.863H13.043a1.345 1.345 0 100 2.69h15.014a1.345 1.345 0 100-2.69zM28.057 18.242H13.043a1.345 1.345 0 100 2.69h15.014a1.344 1.344 0 100-2.69zM28.057 23.62H13.043a1.345 1.345 0 100 2.69h15.014a1.345 1.345 0 100-2.69z"/></g></svg>
+                <div class="feature-content">
+                    <h4 class="xs-heading">Create blacklists</h4>
+                    <p class="inner-content">
+                        Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <svg width="44" height="40" xmlns="http://www.w3.org/2000/svg"><path d="M17.872 14.736a235.39 235.39 0 012.192 5.744c.746 2.027 1.536 4.24 2.368 6.64h-5.344a44.4 44.4 0 00-.784-2.368c-.288-.81-.57-1.632-.848-2.432h-8.64c-.278.8-.56 1.621-.848 2.432a44.4 44.4 0 00-.784 2.368H0a371.54 371.54 0 012.368-6.644 233.104 233.104 0 012.192-5.748 206.71 206.71 0 012.112-5.112c.693-1.61 1.413-3.136 2.16-4.736H13.6c.725 1.6 1.44 3.125 2.144 4.736.704 1.61 1.413 3.328 2.128 5.12zM7.968 18.32h6.303c-.34-.96-.671-1.878-.991-2.752a94.407 94.407 0 00-.912-2.4c-.288-.725-.539-1.365-.752-1.92-.214-.555-.384-.992-.512-1.313-.107.32-.267.758-.48 1.313a1241.872 1241.872 0 00-1.648 4.32c-.331.874-.667 1.792-1.008 2.752zM35.04 3.2h-3.2v25.6h3.2V32h-9.6v-3.2h3.2V3.2h-3.2V0h9.6v3.2z" fill="#9EABB2" fill-rule="nonzero"/></svg>
+                <div class="feature-content">
+                    <h4 class="xs-heading">Plain text snippets</h4>
+                    <p class="inner-content">
+                        Remove unwanted formatting from copied text for a consistent look.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <svg width="44" height="40" xmlns="http://www.w3.org/2000/svg"><g fill="#9EABB2" fill-rule="nonzero"><path d="M11.07 0C8.353 0 6.14 2.192 6.14 4.876l-.179 25.278 2.69.02.179-25.289c0-1.21 1.005-2.196 2.24-2.196h27.027V0H11.071z"/><path d="M38.097 0a5.115 5.115 0 00-5.11 5.11v28.37c0 2.052-1.668 3.72-3.72 3.72a3.725 3.725 0 01-3.72-3.72V30.21c0-.743-.601-1.345-1.344-1.345H1.345C.602 28.864 0 29.466 0 30.21v3.272a6.417 6.417 0 006.41 6.409V37.2a3.724 3.724 0 01-3.72-3.72v-1.927h20.168v1.928a6.417 6.417 0 006.41 6.409 6.417 6.417 0 006.409-6.41V12.46h6.185c.743 0 1.345-.602 1.345-1.345V5.11A5.115 5.115 0 0038.097 0zm2.42 9.77h-4.84V5.11a2.423 2.423 0 012.42-2.42 2.423 2.423 0 012.42 2.42v4.66z"/><path d="M6.14 37.201h22.813v2.689H6.14zM19.99 7.485h-6.947a1.345 1.345 0 100 2.69h6.947a1.345 1.345 0 100-2.69zM28.057 12.863H13.043a1.345 1.345 0 100 2.69h15.014a1.345 1.345 0 100-2.69zM28.057 18.242H13.043a1.345 1.345 0 100 2.69h15.014a1.344 1.344 0 100-2.69zM28.057 23.62H13.043a1.345 1.345 0 100 2.69h15.014a1.345 1.345 0 100-2.69z"/></g></svg>
+                <div class="feature-content">
+                    <h4 class="xs-heading">Sneak preview</h4>
+                    <p class="inner-content">
+                        Quick preview of all snippets on your Clipboard for easy access.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="client">
+        <div class="row">
+            <div class="company col-lg-3">
+                <img src="images/logo-google.png">
+            </div>
+            <div class="row col-lg-9 four-logos">
+                <div class="company col-lg-3">
+                    <img src="images/logo-ibm.png">
+                </div>
+                <div class="company col-lg-3">
+                    <img src="images/logo-microsoft.png">
+                </div>
+                <div class="company col-lg-3">
+                    <img src="images/logo-hp.png">
+                </div>
+                <div class="company col-lg-3">
+                    <img src="images/logo-vector-graphics.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="download">
+        <h3 class="small-heading">Clipboard for iOS and Mac OS</h3>
+        <p class="inner-content">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+        <button class="download-button download-ios">Download for iOS</button>
+        <button class="download-button download-mac">Download for Mac</button>
+    </section>
+
+
+
+    <footer>
+        <div class="row">
+            <div class="col-lg">
+                <img src="images/logo.svg" width="50px">
+            </div>
+
+            <div class="col-lg">
+                <ul class="footer-nav">
+                    <li>FAQs</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="col-lg">
+                <ul class="footer-nav">
+                    <li>Privacy</li>
+                    <li>Press Kit</li>
+                </ul>
+            </div>
+            <div class="col-lg">
+                <ul class="footer-nav">
+                    <li>Install Guide</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 row social">
+                <ul class="list-social">
+                    <li><i class="fa-brands fa-facebook-square"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
